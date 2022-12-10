@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: .1rem;
+}
+
+hr {
+  background: url(img/hr-img.png) repeat;
+  height: 10px;
+  border: none;
+}
+
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+}
+
+main h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+}
+
+selection p {
+  font-family: 'Roboto', sans-serif;
+  line-height: normal;
+}
+
+#recipe-section {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 7px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+
+  background: url(img/list-bg.png);
+}
+
+#Bottom-break {
+  background: url(img/hr-img.png) repeat;
+  height: 10px;
+  border: none;
+}
+
+#footer-horizonal-break {
+  background-image: url(img/small-logo.png);
+  background-repeat: no-repeat;
+}
+
+#footer-horizonal-break {
+  background: url(img/small-logo.png) no-repeat top center;
+  background-size: contain;
+  display: block;
+  height: 18px;
+  border: 0;
+  position: relative;
+}
+
+#footer-horizonal-break:before,
+#footer-horizonal-break:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #f7f7f7;
+  top: 8px;
+  height: 4px;
+
+}
+
+#footer-horizonal-break:before {
+  left: 0;
+  right: 50%;
+  margin-right: 10px;
+}
+
+#footer-horizonal-break:after {
+  right: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+
+#author {
+  font-weight: 600;
+}
+
+button {
+  background-color: #E76f51;
+}
