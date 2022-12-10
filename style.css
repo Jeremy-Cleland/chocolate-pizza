@@ -3,6 +3,7 @@ body {
   font-size: .1rem;
 }
 
+
 hr {
   background: url(img/hr-img.png) repeat;
   height: 10px;
@@ -24,6 +25,7 @@ selection p {
   font-family: 'Roboto', sans-serif;
   line-height: normal;
 }
+
 
 #recipe-section {
   font-family: 'Just Another Hand', cursive;
